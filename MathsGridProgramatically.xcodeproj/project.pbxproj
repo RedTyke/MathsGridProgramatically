@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		20ED224A20F27D59006DC16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED224920F27D59006DC16B /* AppDelegate.swift */; };
-		20ED224C20F27D59006DC16B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED224B20F27D59006DC16B /* ViewController.swift */; };
 		20ED224F20F27D59006DC16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ED224D20F27D59006DC16B /* Main.storyboard */; };
 		20ED225120F27D5B006DC16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ED225020F27D5B006DC16B /* Assets.xcassets */; };
 		20ED225420F27D5B006DC16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ED225220F27D5B006DC16B /* LaunchScreen.storyboard */; };
+		20ED225C20F27D9B006DC16B /* MathsGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED225B20F27D9B006DC16B /* MathsGridCollectionViewController.swift */; };
+		20ED225E20F27DAF006DC16B /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED225D20F27DAF006DC16B /* GridCollectionViewCell.swift */; };
+		20ED226220F2991D006DC16B /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED226120F2991D006DC16B /* ColumnFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20ED224620F27D59006DC16B /* MathsGridProgramatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathsGridProgramatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ED224920F27D59006DC16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20ED224B20F27D59006DC16B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20ED224E20F27D59006DC16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20ED225020F27D5B006DC16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20ED225320F27D5B006DC16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20ED225520F27D5C006DC16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ED225B20F27D9B006DC16B /* MathsGridCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsGridCollectionViewController.swift; sourceTree = "<group>"; };
+		20ED225D20F27DAF006DC16B /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		20ED226120F2991D006DC16B /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				20ED224920F27D59006DC16B /* AppDelegate.swift */,
-				20ED224B20F27D59006DC16B /* ViewController.swift */,
 				20ED224D20F27D59006DC16B /* Main.storyboard */,
 				20ED225020F27D5B006DC16B /* Assets.xcassets */,
 				20ED225220F27D5B006DC16B /* LaunchScreen.storyboard */,
 				20ED225520F27D5C006DC16B /* Info.plist */,
+				20ED225B20F27D9B006DC16B /* MathsGridCollectionViewController.swift */,
+				20ED225D20F27DAF006DC16B /* GridCollectionViewCell.swift */,
+				20ED226120F2991D006DC16B /* ColumnFlowLayout.swift */,
 			);
 			path = MathsGridProgramatically;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20ED224C20F27D59006DC16B /* ViewController.swift in Sources */,
+				20ED225E20F27DAF006DC16B /* GridCollectionViewCell.swift in Sources */,
+				20ED226220F2991D006DC16B /* ColumnFlowLayout.swift in Sources */,
+				20ED225C20F27D9B006DC16B /* MathsGridCollectionViewController.swift in Sources */,
 				20ED224A20F27D59006DC16B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L75BZ5LCW2;
 				INFOPLIST_FILE = MathsGridProgramatically/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L75BZ5LCW2;
 				INFOPLIST_FILE = MathsGridProgramatically/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
