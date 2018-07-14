@@ -36,7 +36,7 @@ class MathsGridCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
  
-        return 100
+        return 200
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -47,7 +47,7 @@ class MathsGridCollectionViewController: UICollectionViewController {
   
         
         switch cellNumber % keyNumber {
-        case 0: cell.textLabel.alpha = 0.7
+        case 0: cell.textLabel.alpha = 0.9
         default: cell.textLabel.alpha = 0.2
         }
         
